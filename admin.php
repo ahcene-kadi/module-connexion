@@ -51,6 +51,6 @@ echo '</table>';
 $BDD = null;
 $reqadmin = null;
 ?>
-  </main>
-  <a class="button" href="index.php">Retour</a>
-  </body>
+</main>
+<a class="button" href="index.php">Retour</a>
+</body>

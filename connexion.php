@@ -47,12 +47,15 @@ if (isset($_POST['Connexion']))
 </head>
 
 <body>
+<main>
+<section>
 <h2>Connexion à votre profil</h2>
 <?php if (isset($erreur))
 {
     echo '<font color="red">' . $erreur . '</font>';
 }
 ?>
+</section>
 <form action="connexion.php" method="post">
     <section>
         <label for="Login">Login</label>
@@ -66,5 +69,6 @@ if (isset($_POST['Connexion']))
 <section>
 <a class="button" href="inscription.php">S'inscrire !</a>
 </section>
+</main>
 </body>
 </html>
